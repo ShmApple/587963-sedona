@@ -19,12 +19,12 @@
     </header>
     <main class="content">
       <section class="intro">
+        <h1 class="visually-hidden">Welcome to Sedona</h1>
         <img src="img/index-background.jpg" width=1200 height=800 alt="Седона">
       </section>
-      <h1 class="visually-hidden">Welcome to Sedona</h1>
       <strong>Седона — небольшой городок в аризоне, заслуживающий большего!</strong>
       <article class="advantages">
-        <h2 class="visually-hidden">Перимущества Седоны</h2>
+        <h1 class="visually-hidden">Перимущества Седоны</h1>
         <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
         <section class="village">
           <h2>Настоящий городок</h2>
@@ -33,7 +33,7 @@
           <img src="img/village.jpg" width=800 height=400>
         </section>
         <section class="village-advantages">
-          <h2 class="visually-hidden">Преимущества маленького городка</h2>
+          <h2 class="visually-hidden">Преимущества настоящего городка</h2>
           <ul class="village-advantages-list">
             <li class="village-advantages-item">
               <h3>Жилье</h3>
@@ -77,26 +77,26 @@
         <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
         <a class="search-button" href="#">Поиск гостиницы в Седоне</a>
         <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-          <label>
+          <label class="search-form-date">
             Дата заезда:
-            <input type="text" name="Дата заезда">
+            <input type="date" name="Дата заезда">
           </label>
           <br>
-          <label>
+          <label class="search-form-date">
             Дата выезда:
-            <input type="text" name="Дата выезда">
+            <input type="date" name="Дата выезда">
           </label>
           <br>
-          <label>
+          <label class="search-form-number">
             Взрослые
             <input type="number" name="Количество взрослых">
           </label>
-          <label>
+          <label class="search-form-number">
             Дети
             <input type="number" name="Количество детей">
           </label>
           <br>
-          <input type="submit" value="Найти">
+          <input class="submit-button" type="submit" value="Найти">
         </form>
       </section>
       <section class="map">
