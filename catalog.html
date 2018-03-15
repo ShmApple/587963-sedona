@@ -13,13 +13,14 @@
           <li><a href="info.html">Информация</a></li>
           <li><a href="photo.html">Фото и Видео</a></li>
           <li><a href="map.html">Карта штата</a></li>
-          <li><a href="catalog.html">Гостиницы</a></li>
+          <li class="main-nav-current"><a>Гостиницы</a></li>
         </ul>
       </nav>
     </header>
     <main class="hotels">
       <h1 class="visually-hidden">Гостиницы Седоны</h1>
       <section class="filter">
+        <h2 class="visually-hidden">Фильтр гостиниц</h2>
         <img src="img/hotels-background.jpg" width=1200 height=800 alt="Седона">
         <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
           <fieldset class="filter-form-infrastructure">
@@ -27,21 +28,19 @@
             <ul>
               <li>
                 <label>
-                  <input class="visually-hidden" type="checkbox" name="Бассейн" checked>
-                  <span class="chekbox"></span>
+                  <input type="checkbox" name="Бассейн" value="Бассейн" checked>
                   Бассейн
                 </label>
               </li>
               <li>
                 <label>
-                  <input type="checkbox" name="Парковка">
-                  <span class="chekbox"></span>
+                  <input type="checkbox" name="Парковка" value="Парковка">
                   Парковка
                 </label>
               </li>
               <li>
                 <label>
-                  <input type="checkbox" name="Wi-Fi">
+                  <input type="checkbox" name="Wi-Fi" value="Wi-Fi">
                   Wi-Fi
                 </label>
               </li>
@@ -52,19 +51,19 @@
             <ul>
               <li>
                 <label>
-                  <input type="checkbox" name="Гостиница" checked>
+                  <input type="checkbox" name="Гостиница" value="Гостиница" checked>
                   Гостиница
                 </label>
               </li>
               <li>
                 <label>
-                  <input type="checkbox" name="Мотель" checked>
+                  <input type="checkbox" name="Мотель" value="Мотель" checked>
                   Мотель
                 </label>
               </li>
               <li>
                 <label>
-                  <input type="checkbox" name="Аппартаменты" checked>
+                  <input type="checkbox" name="Аппартаменты" value="Аппартаменты" checked>
                   Апартаменты
                 </label>
               </li>
@@ -84,6 +83,7 @@
             <input type="submit" value="Показать">
           </fieldset>
         </form>
+      </section>
       <section class="sorting">
         <h2 class="visually-hidden">Сортировка гостиниц</h2>
         <b>Найдено:3</b>
