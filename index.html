@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
@@ -23,14 +25,17 @@
         <h2 class="visually-hidden">Виды Седоны</h2>
         <img src="img/index-background.jpg" width=1200 height=800 alt="Седона">
       </section>
-      <strong>Седона — небольшой городок в аризоне, заслуживающий большего!</strong>
       <article class="advantages">
+        <strong>Седона — небольшой городок в аризоне,
+          <br>заслуживающий большего!</strong>
         <h2 class="visually-hidden">Преимущества Седоны</h2>
         <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
         <section class="village">
-          <h3>Настоящий городок</h3>
-          <span class="numbering">-№1-</span>
-          <p class="advantages-text">Седона — не аттракцион для туристов, там течет своя жизнь</p>
+          <div>
+            <h3>Настоящий городок</h3>
+            <span class="numbering">-№1-</span>
+            <p class="advantages-text">Седона — не аттракцион для туристов, там течет своя жизнь</p>
+          </div>
           <img src="img/village.jpg" width=800 height=400 alt="Седона">
         </section>
         <section class="village-advantages">
@@ -51,26 +56,32 @@
           </ul>
         </section>
         <section class="bridge">
-          <h3>Там есть
-            <br>мост дьявола</h3>
-          <span class="numbering">-№2-</span>
-          <p class="advantages-text">Да, по нему можно пройти! Если конечно Вы осмелитесь</p>
           <img src="img/bridge.jpg" width=800 height=400 alt="Мост дьявола">
+          <div>
+            <h3>Там есть
+              <br>мост дьявола</h3>
+            <span class="numbering">-№2-</span>
+            <p class="advantages-text">Да, по нему можно пройти! Если конечно Вы осмелитесь</p>
+          </div>
         </section>
-        <section class="square">
-          <h3>Небольшая площадь</h3>
-          <span class="numbering">-№3-</span>
-          <p class="advantages-text">Все достопримечательности находятся очень близко</p>
-        </section>
-        <section class="road">
-          <h3>Красивая дорога</h3>
-          <span class="numbering">-№4-</span>
-          <p class="advantages-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        </section>
-        <section class="tourists">
-          <h3>Мало туристов</h3>
-          <span class="numbering">-№5-</span>
-          <p class="advantages-text">Большинство едет в Гранд Каньон и толпится там</p>
+        <section class="more-advantages">
+          <ul class="more-advantages-list">
+            <li class="more-advantages-item">
+              <h3>Небольшая площадь</h3>
+              <span class="numbering">-№3-</span>
+              <p class="advantages-text">Все достопримечательности находятся очень близко</p>
+            </li>
+            <li class="more-advantages-item">
+              <h3>Красивая дорога</h3>
+              <span class="numbering">-№4-</span>
+              <p class="advantages-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </li>
+            <li class="more-advantages-item">
+              <h3>Мало туристов</h3>
+              <span class="numbering">-№5-</span>
+              <p class="advantages-text">Большинство едет в Гранд Каньон и толпится там</p>
+            </li>
+          </ul>
         </section>
       </article>
       <section class="hotel-search">
@@ -89,13 +100,13 @@
             <input type="text" name="Дата выезда">
           </label>
           <label class="search-form-number">
-            Взрослые
+            Взрослые:
             <input type="number" name="Количество взрослых">
           </label>
           <button class="number-plus" type="button">Увеличить</button>
           <button class="number-minus" type="button">Уменьшить</button>
           <label class="search-form-number">
-            Дети
+            Дети:
             <input type="number" name="Количество детей">
           </label>
           <button class="number-plus" type="button">Увеличить</button>
