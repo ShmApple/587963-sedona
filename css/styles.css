@@ -46,7 +46,7 @@ a {
 }
 
 .main-nav-link:active{
-  color: rgba(0,0,0,0.3)
+  color: rgba(0,0,0,0.3);
 }
 
 .main-nav-current,
@@ -64,14 +64,16 @@ a {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
-  color: #000000
+  color: #000000;
 }
 
+.other-advantages-heading,
+.more-advantages-heading,
 .advantages-heading{
   font-size: 21px;
   line-height: 21px;
   font-weight: bold;
-  color: #000000
+  color: #000000;
 }
 
 .village,
@@ -81,13 +83,18 @@ a {
   color: #ffffff;
 }
 
-.advantages-list{
+.advantages-heading{
+  color: #ffffff;
+}
+
+.more-advantages-list,
+.other-advantages-list{
   display: flex;
   list-style: none;
 }
 
-.village-advantages{
-  background-color: #ffffff
+.other-advantages{
+  background-color: #ffffff;
 }
 
 .hotel-search{
@@ -138,6 +145,8 @@ a {
   display: flex;
 
   color: #ffffff;
+
+  background-color: #81b3d2;
 }
 
 .filter-form legend{
@@ -146,11 +155,9 @@ a {
   font-weight: bold;
 }
 
-.filter-form-list{
-  list-style: none;
-}
-
-.sorting li{
+.filter-form-list,
+.sorting-list,
+.sorting-direction-list{
   list-style: none;
 }
 
