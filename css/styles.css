@@ -67,6 +67,11 @@ a {
   color: #000000;
 }
 
+.advantages-text{
+  font-size: 14px;
+  line-height: 26px;
+}
+
 .other-advantages-heading,
 .more-advantages-heading,
 .advantages-heading{
@@ -108,12 +113,28 @@ a {
   color: #000000
 }
 
+.hotel-search-text{
+  line-height: 24px;
+}
+
 .search-button{
+  display: inline-block;
+
   font-size: 21px;
   line-height: 26px;
+  font-weight: bold;
   color: #ffffff;
   text-align: center;
+/*
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 65px;
+*/
   background-color: #766357
 }
 
@@ -125,6 +146,28 @@ a {
 .search-button:active{
   color: rgba(255,255,255,0.3);
   background-color: #503e33
+}
+
+.submit-button{
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
+  background-color: #81b3d2;
+
+  border:0px;
+}
+
+.submit-button:hover,
+.submit-button:focus{
+  background-color: #669ec0;
+}
+
+.submit-button:active{
+  color: rgba(255,255,255,0.3);
+  background-color: #5496bd;
 }
 
 .search-form{
@@ -155,6 +198,21 @@ a {
   font-weight: bold;
 }
 
+.show-hotel{
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+
+  background-color: transparent;
+}
+
+.show-hotel:hover,
+.show-hotel:focus{
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .filter-form-list,
 .sorting-list,
 .sorting-direction-list{
@@ -172,37 +230,29 @@ a {
   color: #000000;
 }
 
-.sorting-item-active{
+.sorting-link-active{
   text-decoration: none;
   color: #81b3d2;
 }
+.sorting-text,
+.sorting-list{
+  font-size: 12px;
+  line-height: 18px;
+}
 
-.sorting-item{
+.sorting-link{
   text-decoration: underline dotted #81b3d2;
   color: rgba(0,0,0,0.3);
 }
 
-.sorting-item:hover,
-.sorting-item:focus{
+.sorting-link:hover,
+.sorting-link:focus{
   color: #81b3d2;
 }
 
-.sorting-item:active{
+.sorting-link:active{
   text-decoration: none;
   color: #000000;
-}
-
-.sorting-direction-item{
-  color: rgba(0,0,0,0.3)
-}
-
-.sorting-direction-item:hover,
-.sorting-direction-item:focus{
-  color: #000000;
-}
-
-.sorting-direction-item:active{
-  color: #81b3d2;
 }
 
 .hotel-name{
