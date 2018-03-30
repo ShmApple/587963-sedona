@@ -342,6 +342,10 @@ input[type="radio"].visually-hidden {
           transform: translateX(-50%);
 }
 
+.search-form label {
+  cursor: pointer;
+}
+
 .search-form input {
   display: block;
   -webkit-box-sizing: border-box;
@@ -997,8 +1001,7 @@ input[type="radio"].visually-hidden {
   margin-left: 0px;
 }
 
-.sorting-directoin-link-active svg,
-.sorting-directoin-link:active svg{
+.sorting-directoin-link-active svg{
   fill: #81b3d2;
 }
 
@@ -1009,6 +1012,10 @@ input[type="radio"].visually-hidden {
 .sorting-directoin-link:hover svg,
 .sorting-directoin-link:focus svg{
   fill: #231f20;
+}
+
+.sorting-directoin-link:active svg{
+  fill: #81b3d2;
 }
 
 .catalog-list {
