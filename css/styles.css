@@ -37,9 +37,8 @@ input[type="radio"].visually-hidden {
   border: 0;
 
   clip: rect(0 0 0 0);
-          clip-path: inset(100%);
-
   -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
 }
 
 .container {
@@ -355,8 +354,7 @@ input[type="radio"].visually-hidden {
 
 .search-form input {
   display: block;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 346px;
@@ -373,6 +371,8 @@ input[type="radio"].visually-hidden {
   background-color: #f2f2f2;
   border: 0;
   outline: none;
+
+  -ms-flex-negative: 0;
 }
 
 .search-form input:hover {
@@ -381,9 +381,9 @@ input[type="radio"].visually-hidden {
 
 .search-form input:focus {
   padding-top: 4px;
+  padding-right: 34px;
   padding-bottom: 4px;
   padding-left: 10px;
-  padding-right: 34px;
 
   background-color: transparent;
   border: 2px solid #e5e5e5;
@@ -442,7 +442,7 @@ input[type="radio"].visually-hidden {
   -webkit-box-align: center;
   -webkit-box-pack: justify;
   -ms-flex-align: center;
-  -ms-flex-pack: justify;;
+  -ms-flex-pack: justify;
 }
 
 .search-form-date:nth-child(2) {
@@ -566,7 +566,7 @@ input[type="radio"].visually-hidden {
   left: 0;
 }
 
-.minus svg{
+.minus svg {
   margin-bottom: 3px;
 }
 
@@ -605,8 +605,8 @@ input[type="radio"].visually-hidden {
 .map {
   height: 595px;
 
-  background-image: url(../img/map.jpg);
   background-color: #cbdda9;
+  background-image: url(../img/map.jpg);
   background-position: center;
 }
 
@@ -699,7 +699,9 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   align-items: center;
   width: 260px;
   margin: 0;
@@ -712,8 +714,8 @@ input[type="radio"].visually-hidden {
 
 .htmlacademy {
   margin-top: 5px;
-  margin-left: 9px;
   margin-right: 28px;
+  margin-left: 9px;
 }
 
 .htmlacademy:hover path,
@@ -1180,6 +1182,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-top: auto;
   padding: 3px 13px;
+
   color: #666666;
 
   background-color: #f2f2f2;
