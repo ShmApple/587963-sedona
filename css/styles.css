@@ -68,20 +68,17 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding: 0 72px;
 
   list-style: none;
 }
 
 .main-navigation-list li {
-  width: 20%;
+  width: 240px;
   padding-top: 14px;
   padding-bottom: 16px;
-}
-
-.main-navigation-list li:nth-child(1) {
-  padding-left: 72px;
 }
 
 .main-navigation-list li:nth-child(3) {
@@ -91,8 +88,6 @@ input[type="radio"].visually-hidden {
 }
 
 .main-navigation-list li:nth-child(4) {
-  padding-right: 72px;
-
   text-align: right;
 }
 
@@ -530,8 +525,12 @@ input[type="radio"].visually-hidden {
 }
 
 .calendar {
-  top: 0;
+  top: 50%;
   right: 0;
+
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .calendar svg,
@@ -607,9 +606,7 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -824,9 +821,7 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
