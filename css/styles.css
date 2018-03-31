@@ -146,7 +146,10 @@ input[type="radio"].visually-hidden {
 .numbering {
   display: inline-block;
   margin-bottom: 6px;
+
+  vertical-align: top;
 }
+
 
 .other-advantages-heading,
 .more-advantages-heading,
@@ -276,8 +279,10 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
+  vertical-align: top;
   color: #000000;
 }
+
 
 .hotel-search-text {
   margin: 0;
@@ -296,11 +301,13 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
+  vertical-align: top;
   text-align: center;
   color: #ffffff;
 
   background-color: #766357;
 }
+
 
 .search-button:hover,
 .search-button:focus {
@@ -862,8 +869,11 @@ input[type="radio"].visually-hidden {
           box-sizing: border-box;
   width: 49%;
 
+  vertical-align: top;
+
   cursor: pointer;
 }
+
 
 .min-price {
   padding-left: 65px;
