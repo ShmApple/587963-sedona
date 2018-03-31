@@ -17,6 +17,7 @@ a {
 
 img {
   vertical-align: bottom;
+  max-width: 100%;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -341,12 +342,19 @@ input[type="radio"].visually-hidden {
 
 .search-form label {
   cursor: pointer;
+  text-align: left;
+  width: 25%;
+}
+
+.search-form input::-ms-clear {
+    display: none;
 }
 
 .search-form input {
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  flex-shrink: 0;
   width: 346px;
   margin: 0;
   padding: 6px 12px;
@@ -376,6 +384,7 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form input::-webkit-input-placeholder {
+  opacity: 1;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
@@ -384,6 +393,7 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form input:-ms-input-placeholder {
+  opacity: 1;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
@@ -392,6 +402,7 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form input::-ms-input-placeholder {
+  opacity: 1;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
@@ -400,6 +411,7 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form input::placeholder {
+  opacity: 1;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
@@ -465,6 +477,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding-right: 38px;
   padding-left: 38px;
+  -moz-appearance: textfield;
 
   text-align: center;
 }
@@ -873,21 +886,25 @@ input[type="radio"].visually-hidden {
 
 .price-controls input::-webkit-input-placeholder,
 .price-controls input::-webkit-input-placeholder {
+  opacity: 1;
   color: #ffffff;
 }
 
 .price-controls input:-ms-input-placeholder,
 .price-controls input:-ms-input-placeholder {
+  opacity: 1;
   color: #ffffff;
 }
 
 .price-controls input::-ms-input-placeholder,
 .price-controls input::-ms-input-placeholder {
+  opacity: 1;
   color: #ffffff;
 }
 
 .price-controls input::placeholder,
 .price-controls input::placeholder {
+  opacity: 1;
   color: #ffffff;
 }
 
@@ -926,6 +943,9 @@ input[type="radio"].visually-hidden {
 }
 
 .range-toggle:hover {
+  border: 9px solid #ffffff;
+  margin-top: -1px;
+  margin-left: -1px;
   background: #1c4f80;
 }
 
