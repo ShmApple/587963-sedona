@@ -432,9 +432,7 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -476,9 +474,7 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   margin-left: 10px;
 }
@@ -679,11 +675,17 @@ input[type="radio"].visually-hidden {
   fill: #88b6d1;
 }
 
-.main-footer b {
-  display: block;
+.main-footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 260px;
-  margin: 0;
+}
 
+.main-footer b {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
