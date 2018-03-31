@@ -1007,6 +1007,7 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 750px;
   margin-top: 4px;
   margin-left: 48px;
 }
@@ -1015,6 +1016,8 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0;
   margin-left: 40px;
   padding: 0;
@@ -1202,6 +1205,7 @@ input[type="radio"].visually-hidden {
   display: block;
   margin: 0;
   margin-top: -5px;
+  max-width: 750px;
 
   font-weight: bold;
   font-size: 21px;
@@ -1229,6 +1233,7 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   font-size: 14px;
   line-height: 21px;
+  text-align: center;
   color: #ffffff;
   text-decoration: none;
 
