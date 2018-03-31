@@ -606,6 +606,7 @@ input[type="radio"].visually-hidden {
   height: 595px;
 
   background-image: url(../img/map.jpg);
+  background-color: #cbdda9;
   background-position: center;
 }
 
