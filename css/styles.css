@@ -16,8 +16,9 @@ a {
 }
 
 img {
-  vertical-align: bottom;
   max-width: 100%;
+
+  vertical-align: bottom;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -341,24 +342,27 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form label {
-  cursor: pointer;
-  text-align: left;
   width: 25%;
+
+  text-align: left;
+
+  cursor: pointer;
 }
 
 .search-form input::-ms-clear {
-    display: none;
+  display: none;
 }
 
 .search-form input {
   display: block;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  flex-shrink: 0;
   width: 346px;
+  min-height: 38px;
   margin: 0;
   padding: 6px 12px;
-  min-height: 38px;
 
   font-weight: bold;
   font-size: 14px;
@@ -384,39 +388,43 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form input::-webkit-input-placeholder {
-  opacity: 1;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
+
+  opacity: 1;
 }
 
 .search-form input:-ms-input-placeholder {
-  opacity: 1;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
+
+  opacity: 1;
 }
 
 .search-form input::-ms-input-placeholder {
-  opacity: 1;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
+
+  opacity: 1;
 }
 
 .search-form input::placeholder {
-  opacity: 1;
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
+
+  opacity: 1;
 }
 
 .search-form-date {
@@ -477,9 +485,10 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding-right: 38px;
   padding-left: 38px;
-  -moz-appearance: textfield;
 
   text-align: center;
+
+  -moz-appearance: textfield;
 }
 
 .search-form-number .input-container input::-webkit-outer-spin-button,
@@ -526,8 +535,8 @@ input[type="radio"].visually-hidden {
 }
 
 .calendar {
-  right: 0px;
-  top: 0px;
+  top: 0;
+  right: 0;
 }
 
 .calendar svg,
@@ -552,11 +561,11 @@ input[type="radio"].visually-hidden {
 }
 
 .minus {
-  left: 0px;
+  left: 0;
 }
 
 .plus {
-  right: 0px;
+  right: 0;
 }
 
 .submit-button {
@@ -886,26 +895,30 @@ input[type="radio"].visually-hidden {
 
 .price-controls input::-webkit-input-placeholder,
 .price-controls input::-webkit-input-placeholder {
-  opacity: 1;
   color: #ffffff;
+
+  opacity: 1;
 }
 
 .price-controls input:-ms-input-placeholder,
 .price-controls input:-ms-input-placeholder {
-  opacity: 1;
   color: #ffffff;
+
+  opacity: 1;
 }
 
 .price-controls input::-ms-input-placeholder,
 .price-controls input::-ms-input-placeholder {
-  opacity: 1;
   color: #ffffff;
+
+  opacity: 1;
 }
 
 .price-controls input::placeholder,
 .price-controls input::placeholder {
-  opacity: 1;
   color: #ffffff;
+
+  opacity: 1;
 }
 
 .range-controls {
@@ -943,10 +956,11 @@ input[type="radio"].visually-hidden {
 }
 
 .range-toggle:hover {
-  border: 9px solid #ffffff;
   margin-top: -1px;
   margin-left: -1px;
+
   background: #1c4f80;
+  border: 9px solid #ffffff;
 }
 
 .range-toggle-min {
@@ -1060,6 +1074,7 @@ input[type="radio"].visually-hidden {
 
 .sorting-link:active {
   color: #000000;
+
   border: none;
 }
 
