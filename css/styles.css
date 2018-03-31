@@ -60,7 +60,9 @@ input[type="radio"].visually-hidden {
   left: 50%;
 
   -webkit-transform: translateX(-50%);
+
       -ms-transform: translateX(-50%);
+
           transform: translateX(-50%);
 }
 
@@ -175,14 +177,13 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 
   color: #ffffff;
 
   background-color: #81b3d2;
-
-  -webkit-box-align: center;
-  -ms-flex-align: center;
 }
 
 .advantages-content {
@@ -200,17 +201,16 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0;
   padding: 0;
 
   list-style: none;
-
-  -webkit-box-align: center;
-  -webkit-box-pack: justify;
-  -ms-flex-align: center;
-  -ms-flex-pack: justify;
 }
 
 .other-advantages-item {
@@ -354,7 +354,8 @@ input[type="radio"].visually-hidden {
 
 .search-form input {
   display: block;
-  flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 346px;
@@ -371,8 +372,6 @@ input[type="radio"].visually-hidden {
   background-color: #f2f2f2;
   border: 0;
   outline: none;
-
-  -ms-flex-negative: 0;
 }
 
 .search-form input:hover {
@@ -433,16 +432,17 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 29px;
 
-  -webkit-box-align: center;
+  display: -ms-flexbox;
+
+  display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-align: center;
-  -ms-flex-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 29px;
 }
 
 .search-form-date:nth-child(2) {
@@ -463,21 +463,22 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 54px;
-
-  -webkit-box-align: center;
   -webkit-box-pack: justify;
-  -ms-flex-align: center;
-  -ms-flex-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 54px;
 }
 
 .input-container {
   position: relative;
 
   display: -webkit-box;
+
   display: -ms-flexbox;
+
   display: flex;
   margin-left: 10px;
 }
@@ -504,14 +505,13 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 226px;
-
-  -webkit-box-align: center;
   -webkit-box-pack: justify;
-  -ms-flex-align: center;
-  -ms-flex-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 226px;
 }
 
 .number-container:nth-child(2) {
@@ -529,11 +529,6 @@ input[type="radio"].visually-hidden {
   background-color: transparent;
   border: 0;
   cursor: pointer;
-
-  -webkit-box-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
 }
 
 .calendar {
@@ -614,18 +609,19 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   display: -webkit-box;
+
   display: -ms-flexbox;
+
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 33px 72px;
 
   background-color: rgba(255, 255, 255, 0.9);
-
-  -webkit-box-align: center;
-  -webkit-box-pack: justify;
-  -ms-flex-align: center;
-  -ms-flex-pack: justify;
 }
 
 .index .main-footer {
@@ -636,38 +632,36 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 400px;
   margin: 0 auto;
   padding: 0;
 
   list-style: none;
-
-  -webkit-box-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  -ms-flex-wrap: wrap;
 }
 
 .social-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 46px;
   height: 48px;
   margin: 3px;
 
   background-color: #81b3d2;
-
-  -webkit-box-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
 }
 
 .social-button:hover,
@@ -702,14 +696,11 @@ input[type="radio"].visually-hidden {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 260px;
   margin: 0;
-
-  -webkit-box-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
 }
 
 .htmlacademy {
@@ -791,11 +782,6 @@ input[type="radio"].visually-hidden {
   padding-left: 40px;
 
   cursor: pointer;
-
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 .checkbox-label::before {
@@ -840,21 +826,22 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   display: -webkit-box;
+
   display: -ms-flexbox;
+
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 32px;
   margin-top: -13px;
   margin-bottom: 20px;
 
   border: 2px solid #ffffff;
   border-radius: 3px;
-
-  -webkit-box-align: center;
-  -webkit-box-pack: justify;
-  -ms-flex-align: center;
-  -ms-flex-pack: justify;
 }
 
 .price-controls::after {
@@ -868,10 +855,10 @@ input[type="radio"].visually-hidden {
 
   background: #ffffff;
   -webkit-transform: translateX(-50%);
-  -webkit-transform: translateY(-50%);
       -ms-transform: translateX(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateX(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
@@ -1015,13 +1002,12 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 30px 72px;
 
   border-bottom: 1px solid #e5e5e5;
-
-  -webkit-box-align: center;
-  -ms-flex-align: center;
 }
 
 .sorting div {
@@ -1137,11 +1123,10 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item-content {
-  align-items: center;
-  margin-left: 30px;
-
   -webkit-box-align: center;
-  -ms-flex-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
 }
 
 .rating {
@@ -1212,13 +1197,12 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 184px;
   margin: 0;
   padding: 0;
-
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
 }
 
 .hotel-name h3 {
